@@ -1,7 +1,5 @@
 import numpy as np
-import matplotlib
 import matplotlib.pyplot as plt
-matplotlib.use('TkAgg')
 def sine(amplitude, frequency, phase, time):
     return amplitude * np.sin(2 * np.pi * frequency * time + phase)
 
